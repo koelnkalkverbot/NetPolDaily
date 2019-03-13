@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-            // revers order, so we have the latest item as the first one in the list
+            // reverse order, so we have the latest item as the first one in the list
             override fun getItem(position: Int): NPTag {
                 return super.getItem(itemCount - 1 - position)
             }
