@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">WebView test</string>
-    <string name="app_style"><![CDATA[<style>img{display: inline; height: auto; max-width: 100%;}</style>]]></string>
-    <string name="app_content"><![CDATA[<img width="860" height="484" src="https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-860x484.jpg" class="attachment-landscape-860 size-landscape-860 wp-post-image" alt="" style="float:left; clear:both; margin:0 15px 15px 0;" srcset="https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-860x484.jpg 860w, https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-380x214.jpg 380w, https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-1200x675.jpg 1200w, https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-660x372.jpg 660w, https://cdn.netzpolitik.org/wp-upload/2019/02/Was_vom_Tage_uebrig_blieb_26_Feb_2019-e1551199931170-160x90.jpg 160w" sizes="(max-width: 860px) 100vw, 860px" />Heute liefert der Berliner Himmel ein volles Programm ab. Einzig eine Riesenwolke, die wie ein Elefant aussieht, fehlt.China arbeitet an Gesichtserkennung für Schweine, das BSI hat sich Tablets mit Schadsoftware im Internet bestellt, YouTube will was gegen Impfgegner-Videos unternehmen und ein Power-IMDb-Kritiker plaudert aus dem Nähkästchen. Die interessantesten Reste des Tages.]]></string>
+    <string name="app_name">Netzpolitik - Die interessantesten Reste des Tages</string>
     <string name="default_notification_channel_id">Netzpolitik</string>
+    <string name="donate">Spenden</string>
+    <string name="about">Impressum</string>
+    <string name="about_message"><![CDATA[<p>Angaben gemäß § 5 TMG</p><p>Jens Wangenheim<br>50937 Köln<p><p>E-Mail: apps@jenswangenheim.de<br>Twitter: koelnkalkverbot<p>]]></string>
+    <string name="toogle_notifications">Benachrichtigungen ein/aus</string>
+    <string name="pref_notifications">pref_notifications</string>
 </resources>
