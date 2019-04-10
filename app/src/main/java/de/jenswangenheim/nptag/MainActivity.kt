@@ -3,6 +3,7 @@ package de.jenswangenheim.nptag
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
@@ -52,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             .build()
 
         adapter = object : FirebaseRecyclerAdapter<FeedItem, FeedItemViewHolder>(options) {
-            override fun onCreateViewHolder(parent: ViewGroup, p1: Int): FeedItemViewHolder {
+          override fun onCreateViewHolder(parent: ViewGroup, p1: Int): FeedItemViewHolder {
                 val v = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
                 return FeedItemViewHolder(v)
             }
@@ -77,6 +78,12 @@ class MainActivity : AppCompatActivity() {
             // reverse order, so we have the latest item as the first one in the list
             override fun getItem(position: Int): FeedItem {
                 return super.getItem(itemCount - 1 - position)
+            }
+
+            override fun onDataChanged() {
+                if (progress_bar.isShown) {
+                    progress_bar.visibility = View.GONE
+                }
             }
         }
         recycler_view.adapter = adapter
