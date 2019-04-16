@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.ImageView
 import de.jenswangenheim.nptag.R
 
-class NPTagViewHolder(v: View) : RecyclerView.ViewHolder(v) {
+class FeedItemViewHolder(v: View) : RecyclerView.ViewHolder(v) {
     internal var cvContainer: CardView = v.findViewById(R.id.cv_container)
     internal var ivImage: ImageView = v.findViewById(R.id.iv_teaser_image)
     internal var tvTitle: TextView = v.findViewById(R.id.tv_teaser_title)
